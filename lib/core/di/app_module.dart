@@ -1,8 +1,9 @@
 import 'package:dio/dio.dart';
- import 'package:flutter/gestures.dart';
 import 'package:injectable/injectable.dart';
-import 'package:starter_project_clean/core/base/app_config.dart';
-import 'package:starter_project_clean/main.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+
+import '../base/app_config.dart';
+import 'injection_container.dart';
 
 @module
 abstract class AppModule {

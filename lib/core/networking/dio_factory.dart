@@ -23,7 +23,7 @@ class DioFactory {
       PrettyDioLogger(
         requestHeader: true,
         requestBody: true,
-        requestHeader: false,
+        responseHeader: false,
       ),
     );
   }
